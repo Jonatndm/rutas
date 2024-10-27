@@ -1,31 +1,26 @@
-/* Estilo básico para la barra de navegación */
 .navbar {
-    background-color: #3498db; /* Cambiar color de fondo */
-    padding: 1rem; /* Espaciado interno */
-    display: flex; /* Usar flexbox para la disposición */
-    justify-content: flex-start; /* Alinear a la izquierda */
+    background-color: #3498db;
+    padding: 1rem; 
+    display: flex; 
+    justify-content: flex-start; 
 }
 
-/* Estilo para los enlaces */
 .navbar a {
-    color: white; /* Cambiar color de fuente */
+    color: white; 
     text-decoration: none;
     font-weight: bold;
-    margin: 0 1rem; /* Espaciado entre enlaces */
-    transition: color 0.3s; /* Efecto de transición */
+    margin: 0 1rem; 
+    transition: color 0.3s; 
 }
 
-/* Efectos de hover */
 .navbar a:hover {
-    color: #f39c12; /* Color al hacer hover */
+    color: #f39c12; 
 }
 
-/* Efecto para enlace activo */
 .navbar a.active {
-    text-decoration: underline; /* Estilo para el enlace activo */
+    text-decoration: underline; 
 }
 
-/* Tema oscuro opcional usando variables CSS */
 :root {
     --bg-color: #2c3e50;
     --text-color: #ecf0f1;
@@ -40,5 +35,5 @@
 }
 
 .dark-theme .navbar a:hover {
-    color: #f39c12; /* Mantener efecto de hover */
+    color: #f39c12;
 }
